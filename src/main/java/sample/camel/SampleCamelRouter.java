@@ -24,7 +24,7 @@ import org.springframework.stereotype.Component;
  * <p/>
  * Use <tt>@Component</tt> to make Camel auto detect this route when starting.
  */
-//@Component
+@Component
 public class SampleCamelRouter extends RouteBuilder {
 
     @Override
